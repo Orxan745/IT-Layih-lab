@@ -12,4 +12,4 @@ Git commands:
 (git init) - bu əmr bizim layihəni yazdığımız mühitin qovluğunun içərisində .git adlı hidden qovluq yaradır.
 (git remote add origin ...) - bu əmrlə biz local repository ilə remote repository arasındakı əlaqəni təmin edirik (nöqtələrin yerinə remote repository'nin linkini qeyd edirik).
 (git add .) - bu əmr working directorydə yazdığımız kodları staging qaıtna keçirmək üçün istifadə olunur, əmrin sonundakı nöqtə isə cari qovluqdakı bütün faylları stagingə daşımaq istədiyimizi bildirir.
-(git commit -m "Message")
+(git commit -m "Message") - bu əmr 
