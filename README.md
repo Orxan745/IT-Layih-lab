@@ -9,14 +9,41 @@ Bu serverlərə misal: GitHub, GitLab, BitBucket, BeanStalk, CodeBase, Assembla 
 4. Remote repository - git serverimiz
 
 Git commands: 
+
+
+(git config --global user.name "User name")
+(git config --global user.email "User email")
+
+Bu commandlar terminala kimliyimizi tanıtmaq üçün istifadə olunur.
+
 (git init) - bu əmr bizim layihəni yazdığımız mühitin qovluğunun içərisində .git adlı hidden qovluq yaradır.
+
+
 (git remote add origin ...) - bu əmrlə biz local repository ilə remote repository arasındakı əlaqəni təmin edirik (nöqtələrin yerinə remote repository'nin linkini qeyd edirik).
+
+
 (git add .) - bu əmr working directorydə yazdığımız kodları staging qaıtna keçirmək üçün istifadə olunur, əmrin sonundakı nöqtə isə cari qovluqdakı bütün faylları stagingə daşımaq istədiyimizi bildirir.
+
+
 (git commit -m "Message") - bu əmr staging-də olan faylları local repository-yə göndərmək üçündür(.git qovluğuna).
+
+
 (git push -u origin _branch_) - qeyd etdiyimiz branch-a remote repository-yə fayllarımızı göndərmək üçündür. (ikinci dəfə yalnız git push bəs edir)
+
+
 (git checkout _branch_) - branchı dəyişmək üçün istifadə olunur.
+
+
 (git checkout -b _branch_) - yeni branch yaratmaq üçün istifadə olunur.
+
+
 (git pull) - Remote-dakı dəyişiklikləri çəkmək üçün istifadə olunur.
+
+
 (git reset -soft) - Local repository(.git qovluğu)-dan faylları geri qaytarır.
+
+
 (git reset -mixed) - Staging qatından faylları geri qaytarır.
+
+
 (git reset -hard) - Dəyişiklikləri working directory-dən də silir.
